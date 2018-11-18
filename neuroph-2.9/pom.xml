@@ -38,7 +38,14 @@
       <encoding>UTF-8</encoding>
       <maven.javadoc.failOnError>false</maven.javadoc.failOnError>
    </properties>
-
+<dependencies>
+        <dependency>
+            <groupId>org.neuroph</groupId>
+            <artifactId>neuroph-core</artifactId>
+            <version>2.94</version>
+        </dependency>
+</dependencies>
+         
    <repositories>
       <repository>
          <id>neuroph.sourceforge.net</id>
